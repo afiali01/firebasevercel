@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
  
- *,
+*,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
@@ -127,12 +127,10 @@ a:hover {
   text-decoration: underline;
 }
 a:not([href]):not([tabindex]) {
-  color: inherit;
   text-decoration: none;
 }
 a:not([href]):not([tabindex]):hover,
 a:not([href]):not([tabindex]):focus {
-  color: inherit;
   text-decoration: none;
 }
 a:not([href]):not([tabindex]):focus {
