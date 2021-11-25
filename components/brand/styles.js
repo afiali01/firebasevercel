@@ -5,6 +5,7 @@ const BrandStyles = styled.figure`
   display: flex;
   align-items:center;
   color: #ed4747;
+  cursor:pointer;
  
   h2 {
     font-size: 1.5rem;

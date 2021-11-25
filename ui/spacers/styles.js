@@ -1,13 +1,14 @@
 import styled from 'styled-components';
-const Divider = styled.div`
-      margin: 1.5rem 0;
+
+const TextSpacer = styled.div`
+      margin: ${props => props.margin || "0"};;
       display:flex;
       justify-content: center;
       align-items:center;;
       hr{
           flex:1;
           border:none;
-          border-bottom:1px solid #d6d6d6;
+          border-bottom:1px solid #d4d4d4;
       }
       p{
           margin:0.85rem;
@@ -16,4 +17,4 @@ const Divider = styled.div`
       }
 `
 
-export {Divider}
+export {TextSpacer}

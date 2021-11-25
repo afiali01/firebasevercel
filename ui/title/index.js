@@ -1,1 +1,1 @@
-export {Title, TitleAndTagLine} from './title'
+export {Title, TitleAndTagLine} from './styles'

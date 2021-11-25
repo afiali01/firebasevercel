@@ -12,4 +12,4 @@ const Bar = styled.nav`
 
 `;
 
-export default Bar;
+export {Bar};
